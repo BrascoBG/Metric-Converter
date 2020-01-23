@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background-image: radial-gradient(#c3f5ce,#28a745);
+}
+.wrapper{
+	margin:0 auto;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+#demo{
+	display: none;
+	width: 300px;
+	margin: 0 auto;
+}
+h1{
+	font-family: Lobster;
+	text-align: center;
+	padding: 30px !important;
+	font-size: 50px !important;
+}
+.btn{
+	margin: 20px 0px !important;
+}
+label{
+	font-family: Lobster;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
